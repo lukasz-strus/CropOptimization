@@ -1,0 +1,9 @@
+reset;
+
+model CropOptimizationSavage.mod
+
+option solver cplex;
+
+solve;
+
+display _varname, _var;

@@ -1,0 +1,9 @@
+reset;
+
+model CropOptimizationAvg.mod
+
+option solver cplex;
+
+solve;
+
+display _varname, _var;
